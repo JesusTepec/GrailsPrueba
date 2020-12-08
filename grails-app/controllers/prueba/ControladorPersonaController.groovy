@@ -4,7 +4,9 @@ class ControladorPersonaController {
     def personaService
 
     def index() {
-       render personaService.ingresarPersona()
+        personaService.ingresarPersona(params)
+        return "Se han guardado los datos "
+        //render params
     }
     def personaLeer(){
         render "El dato recibido es : " + personaService.leerPersona().Nombre + "Edad: " + personaService.leerPersona().Edad
@@ -15,5 +17,4 @@ class ControladorPersonaController {
     def personaActualizar(){
         render personaService.actualizarPersona()
     }
-
 }

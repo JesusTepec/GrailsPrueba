@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>Welcome to Grails</title>
+		<title>Ingresar una persona</title>
 		<style type="text/css" media="screen">
 			#status {
 				background-color: #eee;
@@ -117,15 +117,9 @@
 
 		<div id="page-body" role="main">
 			<h1>Agregar una persona</h1>
-			<g:form name="agregarPersona" url="[controller:'controladorPersona',action:'index']"> <!-- controler -- nombre del controlador  action: método -->
-				<p>Nombre: <g:textField name="nombre" value="" /></p>
-				<p>Edad: <g:textField name="edad" value="" /></p>
-				<p>Ciudad: <g:textField name="ciudad" value="" /></p>
-				<p>Estado: <g:textField name="estado" value="" /></p>
-				<p>Fecha de nacimiento:<input type="date" name="fechaDeNacimiento"></p>
-				<p>Sexo: <g:textField name="sexo" value="" /></p>
-				<p>Telefono: <g:textField name="telefono" value="" /></p>
-				<p><button type="submit">Enviar </button></p>
+			<g:form name="myForm" url="[controller:'book',action:'list']">
+
+
 			</g:form>
 
 			<div id="controller-list" role="navigation">
