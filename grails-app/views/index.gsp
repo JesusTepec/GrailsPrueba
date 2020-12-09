@@ -117,7 +117,7 @@
 
 		<div id="page-body" role="main">
 			<h1>Agregar una persona</h1>
-			<g:form name="agregarPersona" url="[controller:'controladorPersona',action:'index']"> <!-- controler -- nombre del controlador  action: método -->
+			<g:form name="agregarPersona" url="[controller:'controladorPersona',action:'personaIngresar']"> <!-- controler -- nombre del controlador  action: método -->
 				<p>Nombre: <g:textField name="nombre" value="" /></p>
 				<p>Edad: <g:textField name="edad" value="" /></p>
 				<p>Ciudad: <g:textField name="ciudad" value="" /></p>

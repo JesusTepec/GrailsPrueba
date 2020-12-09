@@ -4,12 +4,21 @@ class ControladorPersonaController {
     def personaService
 
     def index() {
-        personaService.ingresarPersona(params)
-        return "Se han guardado los datos "
+        //return "Se han guardado los datos "
         //render params
+        render personaService.ingresarPersona(params)
+    }
+    def personaIngresar(){
+       render personaService.ingresarPersona(params)
+
+
     }
     def personaLeer(){
-        render "El dato recibido es : " + personaService.leerPersona().Nombre + "Edad: " + personaService.leerPersona().Edad
+        //render "El dato recibido es : " + personaService.leerPersona().Nombre + "Edad: " + personaService.leerPersona().Edad
+        def dato =[:]
+        dato = personaService.leerPersona()
+        System.out.println(dato)
+        render view: 'Ingresar', model: [dato:dato]
     }
     def personaBorrar(){
         render personaService.eliminarPersona()

@@ -20,23 +20,22 @@ class PersonaService {
         p.Sexo = Datos.sexo
         p.Telefono = Datos.telefono
         // p.save()
-
-
         //def p = new Persona(Nombre: "Alfredo", Edad: 35, Sexo:"Masculino", Ciudad: "Acapulco", Estado: "Guerrero",FechaDeNacimiento: new Date(), Telefono: "7471525118")
         if(p.save()) {
             return "Se guado el dato"
         }else{
-            return "Hay un error al guardar"}
+            return "Hay un error al guardar"
+        }
 
 
     }
     def leerPersona(){
-        def p = Persona.get(9)
+        def p = Persona.list()
         return p
 
     }
     def actualizarPersona(){
-        def p = Persona.get(9)
+        def p = Persona.get(20)
         p.Nombre= "Mateo"
         p.Edad = 9
         p.save()

@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f26afc2-82af-4132-bbe4-3be3c6df24ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/grails-app/views/layouts/Ingresar.gsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.slcache/.index" beforeDir="false" afterPath="$PROJECT_DIR$/.slcache/.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/controllers/prueba/ControladorPersonaController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/controllers/prueba/ControladorPersonaController.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/services/prueba/PersonaService.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/services/prueba/PersonaService.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/layouts/Ingresar.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/views/controladorPersona/Ingresar.gsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/prueba/ControladorPersonaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/prueba/ControladorPersonaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/prueba/PersonaService$_ingresarPersona_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/prueba/PersonaService$_ingresarPersona_closure3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/prueba/PersonaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/prueba/PersonaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/stacktrace.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/stacktrace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +60,20 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Proyecto\grails-app\views\layouts" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Proyecto\grails-app\views\controladorPersona" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,7 +103,7 @@
       <workItem from="1607359191594" duration="657000" />
       <workItem from="1607360509057" duration="916000" />
       <workItem from="1607363885147" duration="19956000" />
-      <workItem from="1607440223079" duration="12395000" />
+      <workItem from="1607440223079" duration="23389000" />
     </task>
     <task id="LOCAL-00001" summary="07/11/2020">
       <created>1607443658758</created>
@@ -130,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607445758980</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="07/11/2020">
+      <created>1607464028846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607464028846</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

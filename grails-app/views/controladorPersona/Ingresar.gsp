@@ -116,19 +116,30 @@
 		</div>
 
 		<div id="page-body" role="main">
-			<h1>Agregar una persona</h1>
-			<g:form name="myForm" url="[controller:'book',action:'list']">
-
-
-			</g:form>
-
+			<h1>Lista de datos</h1>
+			<table>
+				<tr>
+					<td>Id</td>
+					<td>Nombre</td>
+					<td>Sexo</td>
+					<td>Telefono</td>
+					<td>Ciudad</td>
+					<td>Estado</td>
+				</tr>
+				<g:each in="${dato}">
+					<tr>
+						<td>${it.id}</td>
+						<td>${it.Nombre}</td>
+						<td>${it.Sexo}</td>
+						<td>${it.Telefono}</td>
+						<td>${it.Ciudad}</td>
+						<td>${it.Estado}</td>
+					</tr>
+			</g:each>
+			</table>
 			<div id="controller-list" role="navigation">
 				<h2>Available Controllers:</h2>
-				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
-				</ul>
+
 			</div>
 		</div>
 	</body>
